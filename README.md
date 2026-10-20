@@ -1,4 +1,5 @@
 **Dockerized PHP Tesseract OCR with AWS Integration**
+
 Extract text from scanned images using PHP, Tesseract OCR, Docker, and Ubuntu. The system identifies text in images and returns each detected word or text element with its bounding-box coordinates, including X, Y, width, and height.
 
 The application can be extended to process images stored in AWS S3 and integrate with other AWS services.
