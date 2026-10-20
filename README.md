@@ -68,5 +68,7 @@ Confidence-based filtering of OCR results.
 Word, line, and paragraph-level bounding boxes.
 Database storage for extracted text and coordinates.
 Batch processing with AWS SQS and ECS.
+
 **🤝 Contributing**
+
 Contributions, bug reports, and feature requests are welcome. Open an issue or submit a pull request with a clear description of the proposed changes.
