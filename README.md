@@ -5,6 +5,7 @@ Extract text from scanned images using PHP, Tesseract OCR, Docker, and Ubuntu. T
 The application can be extended to process images stored in AWS S3 and integrate with other AWS services.
 
 **🚀 Features**
+
 Text Extraction: Extract text from scanned documents and images using Tesseract OCR.
 Coordinate Detection: Retrieve the position and dimensions of recognized text.
 PHP Integration: Execute OCR operations from a PHP application.
@@ -16,6 +17,7 @@ Scalable Architecture: Extend the solution for batch processing and document aut
 🛠️ Technology Stack
 
 **Technology	Purpose**
+
 PHP	Application logic and OCR orchestration
 Tesseract OCR	Text recognition and coordinate extraction
 Docker	Containerization and deployment
@@ -24,6 +26,7 @@ AWS S3	Optional image storage
 AWS SDK for PHP	Optional integration with AWS services
 
 **📋 Prerequisites**
+
 Install the following tools on your development machine:
 
 Docker Engine
@@ -33,6 +36,7 @@ AWS account and IAM permissions, if using S3
 AWS CLI, optional for managing S3 resources
 
 **🏗️ Architecture**
+
 
 Input Image
      |
@@ -55,6 +59,7 @@ Text + Bounding Box Coordinates
 JSON / TSV / API Response
 
 **Future Enhancements**
+
 REST API endpoints for OCR processing.
 Multi-language OCR support.
 PDF-to-image conversion and multipage PDF processing.
